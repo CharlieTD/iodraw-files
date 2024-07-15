@@ -1,8 +1,8 @@
 ```mermaid
-graph TD
-    A[fa:fa-user Teacher] -->|choice students| B(topics)
-    B --> C{random}
-    C -->|student1| D[random.choice]
-    C -->|student2| E[random.choice]
-    C -->|topic| F[fa:fa-book topics]
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+            
 ```
